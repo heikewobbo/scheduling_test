@@ -10,7 +10,7 @@
 
 		function getRows() {
 			var xmlhttp = new XMLHttpRequest();
-			xmlhttp.open("get", "database.xml", true);
+			xmlhttp.open("get", "https://heikewobbo.github.io/scheduling_test/database.xml", true);
 			xmlhttp.onreadystatechange = function() {
 				if (this.readyState == 4 && this.status == 200) {
 					showResult(this);
