@@ -1,16 +1,14 @@
 <Flights>
-	<BGA>
-		<FLT id="1">
+	<FLT id="1">
 			<Departure>LFBO</Departure>
 			<Arrival>LIMF</Arrival>
 			<Company>BGA</Company>
 			<fltnmb>1234</fltnmb>
 		</FLT>
-		<FLT id="2">
+	<FLT id="2">
 			<Departure>LIMF</Departure>
 			<Arrival>LFBO</Arrival>
 			<Company>BGA</Company>
 			<fltnmb>5678</fltnmb>
 		</FLT>
-	</BGA>
 </Flights>
