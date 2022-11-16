@@ -1,14 +1,32 @@
 <Flights>
-	<FLT id="1">
+	<Flight id="1">
 			<Departure>LFBO</Departure>
 			<Arrival>LIMF</Arrival>
 			<Company>BGA</Company>
-			<fltnmb>1234</fltnmb>
-		</FLT>
-	<FLT id="2">
+			<fltnmb>1</fltnmb>
+	</Flight>
+	<Flight id="2">
 			<Departure>LIMF</Departure>
 			<Arrival>LFBO</Arrival>
 			<Company>BGA</Company>
-			<fltnmb>5678</fltnmb>
-		</FLT>
+			<fltnmb>2</fltnmb>
+	</Flight>
+	<Flight id="3">
+			<Departure>LIMF</Departure>
+			<Arrival>LFBO</Arrival>
+			<Company>BGA</Company>
+			<fltnmb>3</fltnmb>
+	</Flight>
+	<Flight id="4">
+			<Departure>LIMF</Departure>
+			<Arrival>LFBO</Arrival>
+			<Company>BGA</Company>
+			<fltnmb>4</fltnmb>
+	</Flight>
+	<Flight id="5">
+			<Departure>LIMF</Departure>
+			<Arrival>LFBO</Arrival>
+			<Company>BGA</Company>
+			<fltnmb>5</fltnmb>
+	</Flight>
 </Flights>
