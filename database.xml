@@ -1,5 +1,4 @@
-<Flights>					
-	<BGA>				
+<Flights>								
 		<Flight>			
 			<Departure>	LFBD	</Departure>
 			<Arrival>	LFBO	</Arrival>
@@ -17,9 +16,7 @@
 			<Arrival>	CYQX	</Arrival>
 			<Company>	BGA	</Company>
 			<fltnmb>	5002	</fltnmb>
-		</Flight>			
-	</BGA>				
-	<BCS>				
+		</Flight>						
 		<Flight>			
 			<Departure>	EDDP	</Departure>
 			<Arrival>	LIMC	</Arrival>
@@ -37,6 +34,5 @@
 			<Arrival>	LIRP	</Arrival>
 			<Company>	BCS	</Company>
 			<fltnmb>	235	</fltnmb>
-		</Flight>			
-	</BCS>				
+		</Flight>							
 </Flights>					
