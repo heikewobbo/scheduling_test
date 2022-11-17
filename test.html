@@ -30,16 +30,16 @@ function myFunction(xml) {
   var i;
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Departure</th><th>Arrival</th><th>Company</th><th>FLT NMB</th></tr>";
-  var x = xmlDoc.getElementsByTagName("Flight");
+  var x = xmlDoc.getElementsByTagName("BGA");
   for (i = 0; i <x.length; i++) { 
     table += "<tr><td>" +
-    x[i].getElementsByTagName("Departure")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("Flight.Departure")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("Arrival")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("Flight.Arrival")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("Company")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("Flight.Company")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("fltnmb")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("Flight.fltnmb")[0].childNodes[0].nodeValue +
     "</td></tr>";
   }
   document.getElementById("demo").innerHTML = table;
