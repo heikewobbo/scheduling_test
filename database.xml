@@ -1,32 +1,22 @@
-<Flights>
-	<Flight id="1">
-			<Departure>LFBO</Departure>
-			<Arrival>LIMF</Arrival>
-			<Company>BGA</Company>
-			<fltnmb>1</fltnmb>
-	</Flight>
-	<Flight id="2">
-			<Departure>LIMF</Departure>
-			<Arrival>LFBO</Arrival>
-			<Company>BGA</Company>
-			<fltnmb>2</fltnmb>
-	</Flight>
-	<Flight id="3">
-			<Departure>LIMF</Departure>
-			<Arrival>LFBO</Arrival>
-			<Company>BGA</Company>
-			<fltnmb>3</fltnmb>
-	</Flight>
-	<Flight id="4">
-			<Departure>LIMF</Departure>
-			<Arrival>LFBO</Arrival>
-			<Company>BGA</Company>
-			<fltnmb>4</fltnmb>
-	</Flight>
-	<Flight id="5">
-			<Departure>LIMF</Departure>
-			<Arrival>LFBO</Arrival>
-			<Company>BGA</Company>
-			<fltnmb>5</fltnmb>
-	</Flight>
-</Flights>
+<Flights>					
+	<BGA>				
+		<Flight>			
+			<Departure>	LFBD	</Departure>
+			<Arrival>	LFBO	</Arrival>
+			<Company>	BGA	</Company>
+			<fltnmb>	5000	</fltnmb>
+		</Flight>			
+		<Flight>			
+			<Departure>	LFBO	</Departure>
+			<Arrival>	LPLA	</Arrival>
+			<Company>	BGA	</Company>
+			<fltnmb>	5001	</fltnmb>
+		</Flight>			
+		<Flight>			
+			<Departure>	LPLA	</Departure>
+			<Arrival>	CYQX	</Arrival>
+			<Company>	BGA	</Company>
+			<fltnmb>	5002	</fltnmb>
+		</Flight>			
+	</BGA>				
+</Flights>					
