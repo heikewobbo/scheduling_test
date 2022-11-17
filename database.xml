@@ -19,4 +19,24 @@
 			<fltnmb>	5002	</fltnmb>
 		</Flight>			
 	</BGA>				
+	<BCS>				
+		<Flight>			
+			<Departure>	EDDP	</Departure>
+			<Arrival>	LIMC	</Arrival>
+			<Company>	BCS	</Company>
+			<fltnmb>	846	</fltnmb>
+		</Flight>			
+		<Flight>			
+			<Departure>	LIMC	</Departure>
+			<Arrival>	EDDP	</Arrival>
+			<Company>	BCS	</Company>
+			<fltnmb>	645	</fltnmb>
+		</Flight>			
+		<Flight>			
+			<Departure>	EDDP	</Departure>
+			<Arrival>	LIRP	</Arrival>
+			<Company>	BCS	</Company>
+			<fltnmb>	235	</fltnmb>
+		</Flight>			
+	</BCS>				
 </Flights>					
